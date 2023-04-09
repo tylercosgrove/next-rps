@@ -1,7 +1,4 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
 import Header from "@/components/Header";
-import ManualHeader from "@/components/ManualHeader";
 import Head from "next/head";
 import EnterBet from "@/components/EnterBet";
 
@@ -15,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="max-w-screen-md m-auto px-4">
-        <ManualHeader />
+        <Header />
         <EnterBet />
       </div>
     </>
